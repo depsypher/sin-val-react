@@ -1,0 +1,11 @@
+.input {
+    width: 1em;
+    height: 1.2em;
+    padding: 0.4em;
+    margin: 0.2em;
+    text-align: center;
+}
+
+.input:nth-child(3n) {
+    margin-right: 1em;
+}

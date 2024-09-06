@@ -1,0 +1,8 @@
+.sin-input {
+    display: flex;
+    justify-content: center;
+    .verification {
+        width: 7rem;
+        align-self: center;
+    }
+}
