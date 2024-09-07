@@ -1,4 +1,4 @@
-import css from "./SinInputDigit.module.css";
+import css from "./SinDigit.module.css";
 
 interface Props {
     index: number;
@@ -6,7 +6,7 @@ interface Props {
     onChange: (index: number, value: string) => void;
 }
 
-export function SinInputDigit(props: Props) {
+export function SinDigit(props: Props) {
     const {index, value, onChange} = props;
 
     return (

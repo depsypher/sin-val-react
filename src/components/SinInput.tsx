@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import css from "./SinInput.module.css";
-import {SinInputDigit} from "./SinInputDigit.tsx";
+import {SinDigit} from "./SinDigit.tsx";
 import {luhnCheck} from "./LuhnCheck.tsx";
 
 interface Props {
@@ -58,7 +58,7 @@ export function SinInput(props: Props) {
         })
     };
 
-    const inputs = digits.map((v, i) => <SinInputDigit key={i} index={i} value={v} onChange={onChange} />);
+    const inputs = digits.map((v, i) => <SinDigit key={i} index={i} value={v} onChange={onChange} />);
 
     return (
         <div className={css.sinInput}>
