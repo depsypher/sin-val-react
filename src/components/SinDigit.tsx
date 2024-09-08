@@ -12,7 +12,7 @@ export function SinDigit(props: Props) {
     return (
       <input type="text"
              inputMode="numeric"
-             className={css.input}
+             className={`input input-bordered" w-full max-w-xs ${css.input}`}
              value={value}
              min={0}
              max={9}

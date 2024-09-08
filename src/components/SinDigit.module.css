@@ -1,11 +1,15 @@
+/*
+TODO: replace !important with tailwind-override
+ */
 .input {
-    width: 1em;
-    height: 1.2em;
-    padding: 0.4em;
-    margin: 0.2em;
+    width: 1.7em !important;
+    height: 1.7em !important;
+    padding: 0 !important;
+    margin: 0.2em !important;
     text-align: center;
+    border: black solid 1px !important;
 }
 
 .input:nth-child(3n) {
-    margin-right: 1em;
+    margin-right: 0.6em !important;
 }

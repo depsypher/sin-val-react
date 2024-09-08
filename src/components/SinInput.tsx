@@ -63,8 +63,11 @@ export function SinInput(props: Props) {
     return (
         <div className={css.sinInput}>
             {inputs}
-            <div className={css.verification}>
+            <div className={`hidden md:block ${css.verification} ${css.wide}`}>
                 {valid ? "Valid SIN ✅" : "Invalid SIN ❌"}
+            </div>
+            <div className={`md:hidden ${css.verification}`}>
+                {valid ? "✅" : "❌"}
             </div>
         </div>
     )

@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     .verification {
-        width: 7rem;
+        text-wrap: nowrap;
         align-self: center;
+    }
+    .wide {
+        width: 7em;
     }
 }
