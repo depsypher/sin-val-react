@@ -16,6 +16,7 @@ export function SinDigit(props: Props) {
              value={value}
              min={0}
              max={9}
+             maxLength={1}
              onKeyDown={(e) => {
                  const key = e.key
                  if (key === "Backspace") {
